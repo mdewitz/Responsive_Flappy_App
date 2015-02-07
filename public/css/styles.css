@@ -1,0 +1,214 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+body{
+  background-color: rgb(29, 30, 25);
+  color: rgb(57, 193, 193);
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;/*transforms all text into uppercase*/
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  left: 120px;
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+li{
+  list-style-type: none;/*removes bulletpoints*/
+}
+
+span{
+  color: white;/*specifies text within span tags should be white*/
+}
+
+.top_border{
+  position: relative;
+  max-width: 55%;
+  max-height: 45%; 
+}
+
+.border{
+  position: relative;
+  display: inline;
+  float: left;
+  background-image: url('images/border.png');
+  width: 25%;
+  height: 45%;
+  background-repeat: repeat-y;
+
+ /* background-image: contain;*/
+}
+
+.logo{
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 25%;
+  margin-bottom: 5px;
+  margin-top: 2px;
+  padding: 0;
+  /*top: 50px;*/
+  /*top: 50px;*/
+
+
+}
+
+.nav>ul{
+  display: none;
+}
+
+h1{
+  display: inline-block;
+  font-size: 1.5em;
+  position: relative;
+  float: center: left;
+ /* font-size: 20px;*/
+  /*top: -15px;*/
+  /*left: -20px;*/
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+.scenery{
+  /*background-image: url('images/scenery.png');*/
+  /*background-size: cover;*/
+  background-image: cover;
+/*  background-image-width: 20%;*/
+  /*max-width: inherit;
+  max-height: inherit;*/
+  display: block;
+  position:relative;
+  top: 6px;
+/*  max-width: 60%;
+  max-height: 45%;*/
+  width: 100%;
+  height: 220%;
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  /*margin: 30px;*/
+  display: block;
+  /*float: center;
+  margin: 30px;*/
+  /*box-sizing: border-box;*/
+  background-color: rgb(57, 193, 193);
+  color: rgb(33, 33, 39);
+  position: relative;
+  max-width: 55%;
+  max-height: 70%;
+  box-sizing: border-box;
+  font-size: .8em;
+}
+h2{
+  font-size: .8em;
+  padding: 6px;
+}
+
+.main>li{
+  background-color: rgb(57, 193, 193);
+  border-top: 1px solid white;
+  padding: 40px;
+}
+
+h2{
+  background-color: rgb(33, 33, 39);
+  color: rgb(57, 193, 193);
+}
+
+.main>p{
+  text-transform: none; /*overrides text-transform: uppercase*/
+  background-color: white;
+  color: rgb(33, 33, 39);
+  font-size: 1em;
+  /*border: 50px;*/
+  /*border-top: 30px;*/
+
+}
+
+.bottom_border{
+  background-color: rgb(33, 33, 39);
+  max-width: 55%;
+  max-height: 45%;
+  list-style: none;
+  position: relative;
+  top: -15px;
+  margin: 0;
+  padding: 0;  
+}
+.b_border{
+  position: relative;
+  display: block;
+  float: left;
+  background-image: url('images/border.png');
+  background-repeat: repeat;
+  width: 25%;
+  height: 45%;
+
+ /* background-image: contain;*/
+}
+
+.options{
+  list-style-type: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  max-width: 55%;
+  max-height: 45%;
+  font-size: .8em;
+}
+
+.options ul:first-child{
+  /*display: inline-block*/;
+  position: relative;
+  display: inline-block;
+/*  top: 150px;*/
+  float: left;
+  /*top: 12px;
+  left: -20px;*/
+/*  width: 12%;*/ 
+  margin: 0;
+}
+
+.options ul:nth-child(2){
+  /*display: none;*/
+  display: none;
+  /*opacity: 1;*/
+}
+
+.options ul:nth-child(3){
+  /*display: inline-block;*/
+  display: inline;
+  float: right;
+  width: 12%;
+  /*left: -80px;
+  top: -110px;*/
+}
+
+/*.class:nth-child(2){
+  opacity: 1;
+}*/
+
+footer{
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: .8em;
+  float: bottom;
+}
+
+
+
+
+
