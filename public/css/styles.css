@@ -151,10 +151,12 @@ h2{
   position: relative;
   display: block;
   float: left;
-  background-image: url('images/border.png');
-  background-repeat: repeat;
+  border-image: url(images/border.png);
+  border-image-repeat: repeat;
   width: 25%;
   height: 45%;
+  margin: 0;
+  padding: 0;
 
  /* background-image: contain;*/
 }
@@ -168,10 +170,18 @@ h2{
   max-width: 55%;
   max-height: 45%;
   font-size: .8em;
+  color: rgb(57, 193, 193);
+  text-decoration: none;
+}
+
+/*.options ul:first-child{*/
+a{
+  text-decoration: none;
+  color: rgb(57, 193, 193);
 }
 
 .options ul:first-child{
-  /*display: inline-block*/;
+  display: inline-block;
   position: relative;
   display: inline-block;
 /*  top: 150px;*/
