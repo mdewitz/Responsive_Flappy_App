@@ -17,3 +17,14 @@ Remember to start your http server **inside** the **public/** directory.
 ```
 $ http-server
 ```
+
+.feature>p{
+  text-transform: none; /*overrides text-transform: uppercase*/
+  background-color: white;
+  color: rgb(33, 33, 39);
+  font-size: .5em;
+  /*box-sizing: border-box;*/
+  width: 50px
+  height: 100px;
+  margin: 0;
+}
